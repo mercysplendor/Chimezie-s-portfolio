@@ -1,0 +1,85 @@
+* {
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-color: black;
+}
+.container {
+  max-height: 100%;
+  width: 100%;
+  padding: 10px;
+  margin: 20px;
+  display: grid;
+  background-color: black;
+}
+.first-container {
+  display: flex;
+}
+.profile-image img {
+  border-radius: 200px;
+}
+
+.write-up {
+  margin: auto;
+}
+.write-up h1 {
+  font-size: 150px;
+  font-weight: 600;
+  color: lightblue;
+}
+.second {
+  margin-top: 100px;
+  padding: 10px;
+  margin: 10px;
+}
+.circle {
+  height: 400px;
+  width: 400px;
+  border: solid 2px white;
+  border-radius: 200px;
+  margin-right: 1000px;
+}
+.second-container img {
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 300px;
+}
+.second-container .videos {
+  border: solid 2px white;
+  border-radius: 20px;
+}
+.firstline-pics {
+  display: flex;
+  width: 53.3%;
+}
+.secondline-pics {
+  display: flex;
+  width: 33.3%;
+}
+.videos {
+  display: flex;
+  width: 45%;
+}
+video {
+  width: 25%;
+}
+@media (max-width: 1250px) {
+  .container {
+    max-height: 100%;
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    background-color: black;
+  }
+}
+.paragraph {
+  padding: 40px;
+  margin: 20px;
+}
+@media (max-width: 1250px) {
+}
